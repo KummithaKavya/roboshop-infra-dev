@@ -3,7 +3,7 @@
 variable "common_tags" {
   default = {
     project = "roboshop"
-    environment = "uat"
+    environment = "dev"
     terraform = "true"
   }
 }
@@ -13,7 +13,7 @@ variable "project_name" {
 }
 
 variable "environment" {
-  default = "uat"
+  default = "dev"
 }
 
 variable "sg_description" {
